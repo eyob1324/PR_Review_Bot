@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+build/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.whl
+MANIFEST.in
+
+# PyInstaller
+#  Often these files are added to source control by mistake
+#  due to the wildcard matching of `.gitignore` rules
+#  rather than explicit rules.
+_MEI*
+
+# Environments
+.env
+.venv
+prBot/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Pylint / Flake8
+.pylintrc
+*.pylint.d/
+.flake8
+.dmypy_cache/
+.mypy_cache/
+.pytype/
+pytype_output/
+
+# Environments (more comprehensive - feel free to adjust)
+# * If you use a different name for your virtual environment, replace 'venv'
+#   with your environment's name.
+venv/
+.venv/
+env/
+envs/
+virtualenv/
+
+# OS or Editor/IDE specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+*.bak
+*.tmp
+*.cache
+*.history
+__history__
+
+# Documentation specific
+docs/_build/
+*.doctree
